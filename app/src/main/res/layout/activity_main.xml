@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elpollotonio"
+        android:textSize="24dp"
+        android:textColor="#000"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="322dp"
+        android:src="@drawable/pollogram"/>
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="34dp"
+        android:text="❤️"
+        android:onClick="increase"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="likes:0"
+        android:textSize="24dp"
+        android:textColor="#000"
+        android:id="@+id/likes_text_view"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elpollotonio: They call me pico cuz i be the guy yo🐓"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View all 15 comments"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gaa.aabi Iralo iralo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sssamaaanthaaa Areeeeee 😂😂"
+        />
+
+</LinearLayout>
